@@ -21,6 +21,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: "./index.html",
         title: "Just Another Text Editor",
+        favicon: 'favicon.ico'
       }),
       new InjectManifest({
         swSrc: "./src-sw.js",
