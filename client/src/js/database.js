@@ -33,9 +33,6 @@ export const getDb = async () => {
   if (result[0]) {
     return result[result.length - 1].content;
   }
-    if (result[0]) {
-    return result[result.length - 1].content;
-  }
   return false;
 };
 
